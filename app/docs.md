@@ -45,7 +45,7 @@ O exemplo acima ilusta uma requisição feita pelo Dogma Privacy Middle a sua ap
 
 Para o pedido acima, podemos ter as seguintes respostas:
 
-##### Respostas Síncronas
+#### Respostas Síncronas
 
 __Dados Não Encontrados__  
 Código http: `200`
@@ -87,8 +87,10 @@ Código http: `200`
     "protocol": "xyz",
     "scope": "SAR",
     "source": "users"
-}```
+}
+```
 
 
 
-##### Respostas Assíncronas
+#### Respostas Assíncronas
+TODO
