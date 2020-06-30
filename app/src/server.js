@@ -63,7 +63,7 @@ const failure = it => {
     }
 }
 
-app.post('/dogma/v1', validate({body: schema}), (req, res) => {
+app.post('/dogma/v1/request', validate({body: schema}), (req, res) => {
     //console.dir(req.body)
     switch(req.body.keys.id) {
         case 0  : return res.json(notFound(req.body))

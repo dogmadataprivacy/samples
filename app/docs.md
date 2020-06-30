@@ -33,3 +33,12 @@ Exemplo usando [httpie](https://httpie.org/):
 ```
 http POST :8080/dogma/v1 version=v1 source=users protocol=xyz scope=SAR keys:='{"id": 1, "document":"333.222.111-00"}' fields:='["name", "lastname", "phone"]'
 ```
+
+O exemplo acima ilusta uma requisição feita pelo Dogma Privacy Middle a sua aplicação com as seguintes informações:
+
+1. Versão da api: `v1`
+2. Identificador do sistema no Data Mapping: `users`
+3. Número do protocolo do pedido do titular: `xyz`
+4. Tipo do pedido: `SAR`
+5. Chaves de identificação dos dados do titular no sistema: `id = 1` e `document = 333.222.111-00`
+6. Informações do titular que devem ser retornadas: `name`, `lastname` e `phone`
