@@ -52,10 +52,10 @@ Código http: `200`
 
 ```json
 {
-    "kind": "NOT_FOUND",
-    "protocol": "xyz",
-    "scope": "SAR",
-    "source": "users"
+    "kind"     : "NOT_FOUND",
+    "protocol" : "xyz",
+    "scope"    : "SAR",
+    "source"   : "users"
 }
 ```
 __Dados Encontrados__  
@@ -63,15 +63,15 @@ Código http: `200`
 
 ```json
 {
+    "kind"     : "SUCCESS",
+    "protocol" : "xyz",
+    "scope"    : "SAR",
+    "source"   : "users",
     "data": {
-        "lastname": "Cruz",
-        "name": "Leandro",
-        "phone": "+5541 000 000 000"
-    },
-    "kind": "SUCCESS",
-    "protocol": "xyz",
-    "scope": "SAR",
-    "source": "users"
+        "name"     : "Leandro",
+        "lastname" : "Cruz",
+        "phone"    : "+5541 000 000 000"
+    }
 }
 ```
 
@@ -80,13 +80,13 @@ Código http: `200`
 
 ```json
 {
+    "kind"     : "FAILURE",
+    "protocol" : "xyz",
+    "scope"    : "SAR",
+    "source"   : "users",
     "data": {
         "message": "Some Error Message"
-    },
-    "kind": "FAILURE",
-    "protocol": "xyz",
-    "scope": "SAR",
-    "source": "users"
+    }
 }
 ```
 
