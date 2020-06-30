@@ -47,7 +47,7 @@ Para o pedido acima, podemos ter as seguintes respostas:
 
 ##### Respostas Síncronas
 
-__Dados Não Encontrados__
+__Dados Não Encontrados__  
 Código http: `200`
 
 ```json
@@ -58,7 +58,7 @@ Código http: `200`
     "source": "users"
 }
 ```
-__Dados Encontrados__
+__Dados Encontrados__  
 Código http: `200`
 
 ```json
@@ -72,9 +72,10 @@ Código http: `200`
     "protocol": "xyz",
     "scope": "SAR",
     "source": "users"
-}```
+}
+```
 
-__Erro__
+__Erro__    
 Código http: `200`
 
 ```json
