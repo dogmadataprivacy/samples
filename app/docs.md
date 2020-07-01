@@ -46,9 +46,10 @@ O exemplo acima ilusta uma requisição feita pelo Dogma Privacy Middle a sua ap
 Para o pedido acima, podemos ter as seguintes respostas:
 
 #### Respostas Síncronas
+Em todos os casos abaixo, o código http retornado deve ser `200` OK
 
 __Dados Não Encontrados__  
-Código http: `200`
+Corpo da resposta:  
 
 ```json
 {
@@ -59,7 +60,7 @@ Código http: `200`
 }
 ```
 __Dados Encontrados__  
-Código http: `200`
+Corpo da resposta:  
 
 ```json
 {
@@ -76,7 +77,7 @@ Código http: `200`
 ```
 
 __Erro__    
-Código http: `200`
+Corpo da resposta:  
 
 ```json
 {
@@ -93,4 +94,7 @@ Código http: `200`
 
 
 #### Respostas Assíncronas
+TODO
+
+#### Autenticação
 TODO
