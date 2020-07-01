@@ -94,7 +94,8 @@ Corpo da resposta:
 
 
 #### Respostas Assíncronas
-TODO
+O corpo das respostas assíncronas é exatamente o mesmo das respostas síncronas detalhadas acima. 
+A diferença principal é que a aplicação deve fazer um requisição _POST_ http na _url_ de integração com o corpo em _json_
 
 #### Autenticação
 TODO
